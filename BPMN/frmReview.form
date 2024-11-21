@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "label": "Customer Id",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ewkkgl",
+        "columns": null
+      },
+      "id": "customerId",
+      "key": "strCustomerId"
+    },
+    {
+      "label": "Approved",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1n2jhjy",
+        "columns": null
+      },
+      "id": "Field_0vzmpee",
+      "key": "chkApproved"
+    }
+  ],
+  "type": "default",
+  "id": "frmReview",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.29.0"
+  },
+  "schemaVersion": 17
+}
