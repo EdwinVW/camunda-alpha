@@ -4,6 +4,9 @@
     <bpmn:startEvent id="StartEvent_1">
       <bpmn:extensionElements>
         <zeebe:properties />
+        <zeebe:ioMapping>
+          <zeebe:output source="=&#34;C123456&#34;" target="strCustomerId" />
+        </zeebe:ioMapping>
       </bpmn:extensionElements>
       <bpmn:outgoing>Flow_0mhl62v</bpmn:outgoing>
     </bpmn:startEvent>

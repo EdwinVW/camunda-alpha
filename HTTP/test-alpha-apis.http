@@ -34,7 +34,7 @@ Accept: application/json
 
 @taskKey = {{activateJob.response.body.jobs[0].elementInstanceKey}}
 
-GET {{ZEEBE_REST_ADDRESS}}/v2/user-tasks/2251799813685521 HTTP/1.1
+GET {{ZEEBE_REST_ADDRESS}}/v2/user-tasks/{{taskKey}} HTTP/1.1
 Accept: application/json
 
 #######################################################################
